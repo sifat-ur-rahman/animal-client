@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-outline {
+    @apply px-5 py-3.5 border-[1px] min-w-[100px] rounded-[100px] font-[400px] text-lg whitespace-nowrap;
+  }
+  .btn {
+    @apply bg-black text-white py-3.5 pl-5 pr-4 w-[305px] border-[1px] border-[#FFFFFF] rounded-[8px] outline-none ring-offset-0 focus:outline-1  focus:outline-gray-300;
+  }
+  .input {
+    @apply bg-[#F2F2F2] py-3.5 pl-5 pr-4 w-[305px] border-[1px] border-[#FFFFFF] rounded-[8px] outline-none ring-offset-0 focus:outline-1  focus:outline-gray-300;
+  }
+}
